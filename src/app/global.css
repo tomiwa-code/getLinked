@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat+Alternates:wght@300;500;600;700&family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat+Alternates:wght@300;500;600;700&family=Montserrat:wght@400;500;700&family=Unica+One&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+.prizeBgImg {
+  background: url("../../public/prizeBg.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.boxShadow {
+  -webkit-box-shadow: -4px -3px 96px 18px rgba(144, 58, 255, 1);
+  -moz-box-shadow: -4px -3px 96px 18px rgba(144, 58, 255, 1);
+  box-shadow: -4px -3px 96px 18px rgba(144, 58, 255, 1);
+}
+
+.boxShadow-blue {
+  -webkit-box-shadow: -1px 1px 77px 33px rgba(105, 59, 255, 1);
+  -moz-box-shadow: -1px 1px 77px 33px rgba(105, 59, 255, 1);
+  box-shadow: -1px 1px 77px 33px rgba(105, 59, 255, 1);
+}
