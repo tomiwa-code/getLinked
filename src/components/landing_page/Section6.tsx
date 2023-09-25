@@ -2,10 +2,25 @@
 import { fadeIn, slideIn } from "@/utils/variants";
 import { motion } from "framer-motion";
 import { Line } from "../general/Icons";
+import { useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 
 const Section6 = () => {
+  const tagNameRef = useRef<null | HTMLDivElement>(null);
+  const searchParams = useSearchParams();
+  const tagName = searchParams.get("tagname") === "timeline";
+
+  useEffect(() => {
+    if (tagName) {
+      tagNameRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [tagName]);
+
   return (
-    <div className="w-full text-white py-20 border-b border-gray-700 border-opacity-50 px-40">
+    <div
+      ref={tagNameRef}
+      className="w-full text-white py-20 border-b border-gray-700 border-opacity-50 px-40"
+    >
       {/* Title  */}
       <div className="space-y-4 w-full text-center">
         <motion.p

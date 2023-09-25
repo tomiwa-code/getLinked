@@ -6,10 +6,25 @@ import arrow from "public/arrow.png";
 import { motion } from "framer-motion";
 import { blink, fadeIn, slideIn, staggerParent } from "@/utils/variants";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
+import { useEffect, useRef } from "react";
 
 const Section2 = () => {
+  const tagNameRef = useRef<null | HTMLDivElement>(null);
+  const searchParams = useSearchParams();
+  const tagName = searchParams.get("tagname") === "overview";
+
+  useEffect(() => {
+    if (tagName) {
+      tagNameRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [tagName]);
+
   return (
-    <div className="flex w-full py-20 border-b border-gray-600 border-opacity-50 justify-evenly">
+    <div
+      ref={tagNameRef}
+      className="flex w-full py-20 border-b border-gray-600 border-opacity-50 justify-evenly"
+    >
       {/* image */}
       <div className="relative flex w-1/2 pl-40">
         <motion.div

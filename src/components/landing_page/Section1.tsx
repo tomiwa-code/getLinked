@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 import { blink, fadeIn, globeRotate, timer } from "../../utils/variants";
 import BtnDesign from "../general/BtnDesign";
 import Image from "next/image";
+import Link from "next/link";
 
 const Section1 = () => {
   const [typeEffect] = useTypewriter({
@@ -132,7 +133,9 @@ const Section1 = () => {
           custom={0.8}
           className="mt-10 "
         >
-          <BtnDesign text="Register" />
+          <Link href={"/register"}>
+            <BtnDesign text="Register" register={false} />
+          </Link>
         </motion.div>
 
         <motion.div

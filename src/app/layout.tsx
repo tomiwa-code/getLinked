@@ -1,6 +1,6 @@
-import Footer from "@/components/general/Footer";
+import NavbarToggle from "@/components/general/NavbarToggle";
 import "./global.css";
-import Navbar from "@/components/general/Navbar";
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 
@@ -22,10 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className={`bg-dark ${clashDisplay.variable}`}>
-          <Navbar />
+        <div className={`bg-dark ${clashDisplay.variable} min-h-screen`}>
+          <NavbarToggle />
           {children}
-          <Footer />
         </div>
       </body>
     </html>

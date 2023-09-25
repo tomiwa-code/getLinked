@@ -7,10 +7,25 @@ import whiteStar from "public/whiteStar.png";
 import { motion } from "framer-motion";
 import { blink, fadeIn, slideIn, staggerParent } from "@/utils/variants";
 import { QLogo } from "../general/Icons";
+import { useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 
 const Section5 = () => {
+  const tagNameRef = useRef<null | HTMLDivElement>(null);
+  const searchParams = useSearchParams();
+  const tagName = searchParams.get("tagname") === "faq";
+
+  useEffect(() => {
+    if (tagName) {
+      tagNameRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [tagName]);
+
   return (
-    <div className="w-full flex justify-between pt-28 pb-20 px-40 border-b border-gray-700 border-opacity-50">
+    <div
+      ref={tagNameRef}
+      className="w-full flex justify-between pt-28 pb-20 px-40 border-b border-gray-700 border-opacity-50"
+    >
       {/* writeups */}
       <div className="w-1/2 relative">
         <motion.div
