@@ -1,6 +1,6 @@
 "use client";
 import bulb from "public/bulb.png";
-import star from "public/purplestart.png";
+import purpleStar from "public/purpleStar.png";
 import pinkStar from "public/pinkStar.png";
 import arrow from "public/arrow.png";
 import { motion } from "framer-motion";
@@ -101,7 +101,7 @@ const Section2 = () => {
             custom={1.7}
             className="flex items-center ml-20 "
           >
-            <Image width={30} height={32} src={star} alt="start" priority />
+            <Image width={30} height={32} src={purpleStar} alt="start" priority />
           </motion.div>
         </div>
 
@@ -112,15 +112,15 @@ const Section2 = () => {
         >
           Our tech hackathon is a melting pot of visionaries, and its purpose is
           as <br />
-          clear as day: to shape the future. Whether you're a coding genius, a{" "}
+          clear as day: to shape the future. Whether you&apos;re a coding genius, a{" "}
           <br />
-          design maverick, or a concept wizard, you'll have the chance to
+          design maverick, or a concept wizard, you&apos;ll have the chance to
           transform <br />
           your ideas into reality. Solving real-world problems, pushing the
           boundaries <br />
           of technology, and creating solutions that can change the world,{" "}
           <br />
-          that's what we're all about!
+          that&apos;s what we&apos;re all about!
         </motion.div>
       </motion.div>
     </div>

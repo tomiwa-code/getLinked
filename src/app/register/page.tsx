@@ -4,7 +4,7 @@ import Image from "next/image";
 import designer from "public/designer.png";
 import { motion } from "framer-motion";
 import { blink, slideIn } from "@/utils/variants";
-import purplestar from "public/purplestart.png";
+import purpleStar from "public/purpleStar.png";
 import whiteStar from "public/whiteStar.png";
 
 const Register = () => {
@@ -26,7 +26,7 @@ const Register = () => {
           custom={1.5}
           className="absolute top-[3%] left-28"
         >
-          <Image width={25} height={25} src={purplestar} alt="star" />
+          <Image width={25} height={25} src={purpleStar} alt="star" />
         </motion.div>
 
         <motion.div
@@ -36,7 +36,7 @@ const Register = () => {
           custom={1.2}
           className="absolute bottom-[10%] right-10"
         >
-          <Image width={30} height={30} src={purplestar} alt="star" />
+          <Image width={30} height={30} src={purpleStar} alt="star" />
         </motion.div>
 
         <motion.div

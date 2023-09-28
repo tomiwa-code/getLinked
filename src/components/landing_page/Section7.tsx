@@ -6,7 +6,7 @@ import cup from "public/cup.png";
 import silver_medal from "public/silver_medal.png";
 import gold_medal from "public/gold_medal.png";
 import bronze_medal from "public/bronze_medal.png";
-import purplestart from "public/purplestart.png";
+import purpleStar from "public/purpleStar.png";
 import whiteStar from "public/whiteStar.png";
 import { PurpleFlare } from "../general/Flares";
 
@@ -26,7 +26,7 @@ const Section7 = () => {
               priority
               width={20}
               height={20}
-              src={purplestart}
+              src={purpleStar}
               alt="purple star"
             />
           </motion.div>
@@ -43,7 +43,7 @@ const Section7 = () => {
               priority
               width={20}
               height={20}
-              src={purplestart}
+              src={purpleStar}
               alt="purple star"
             />
           </motion.div>

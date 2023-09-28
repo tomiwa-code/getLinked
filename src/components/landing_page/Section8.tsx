@@ -10,7 +10,7 @@ import paybox from "public/paybox.png";
 import vizualPlus from "public/vizualPlus.png";
 import pinkStar from "public/pinkStar.png";
 import whiteStar from "public/whiteStar.png";
-import purpleStart from "public/purpleStart.png";
+import purpleStar from "public/purpleStar.png";
 import { PurpleFlare } from "../general/Flares";
 
 const Section8 = () => {
@@ -67,7 +67,7 @@ const Section8 = () => {
           custom={0.9}
           className="absolute -top-[5%] left-[10%]"
         >
-          <Image src={purpleStart} width={30} height={30} alt="star" priority />
+          <Image src={purpleStar} width={30} height={30} alt="star" priority />
         </motion.div>
 
         <motion.div

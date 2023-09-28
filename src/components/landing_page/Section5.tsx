@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import manThinking from "public/manThinking.png";
-import purplestar from "public/purplestart.png";
+import purpleStar from "public/purpleStar.png";
 import pinkStar from "public/pinkStar.png";
 import whiteStar from "public/whiteStar.png";
 import { motion } from "framer-motion";
@@ -39,7 +39,7 @@ const Section5 = () => {
             priority
             width={25}
             height={25}
-            src={purplestar}
+            src={purpleStar}
             alt="purple star"
           />
         </motion.div>
@@ -104,7 +104,7 @@ const Section5 = () => {
             custom={0.6}
             className=" w-[427px] text-[14px] font-normal text-white border-b border-pinnk pb-2 mt-5 flex justify-between items-center"
           >
-            What happens if I don't have an idea for a project?
+            What happens if I don&apos;t have an idea for a project?
             <span className=" text-[20px] font-normal text-pinnk ">+</span>
           </motion.div>
           <motion.div

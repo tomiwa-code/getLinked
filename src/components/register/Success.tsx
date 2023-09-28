@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import successfully from "public/successfully.png";
 import successful from "public/successful.png";
 import Link from "next/link";
-import purpleStart from "public/purpleStart.png";
+import purpleStar from "public/purpleStar.png";
 import pinkStar from "public/pinkStar.png";
 import whiteStar from "public/whiteStar.png";
 import { motion } from "framer-motion";
@@ -28,7 +28,7 @@ const Success = () => {
         custom={0.9}
         className="absolute top-[10%] left-[70%]"
       >
-        <Image width={25} height={25} src={purpleStart} alt="star" />
+        <Image width={25} height={25} src={purpleStar} alt="star" />
       </motion.div>
 
       <motion.div

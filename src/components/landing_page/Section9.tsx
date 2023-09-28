@@ -1,6 +1,6 @@
 "use client";
-import whitestar from "public/whiteStar.png";
-import purplestar from "public/purplestart.png";
+import whiteStar from "public/whiteStar.png";
+import purpleStar from "public/purpleStar.png";
 import manlock from "public/manLock.png";
 import BtnDesign from "../general/BtnDesign";
 import Image from "next/image";
@@ -22,7 +22,7 @@ const Section9 = () => {
           custom={2}
           className="absolute -left-20 bottom-[20%]"
         >
-          <Image src={purplestar} width={30} height={30} alt="star" />
+          <Image src={purpleStar} width={30} height={30} alt="star" />
         </motion.div>
 
         {/* writeup */}
@@ -35,7 +35,7 @@ const Section9 = () => {
               custom={2}
               className="absolute opacity-50 right-[40%]"
             >
-              <Image src={whitestar} width={25} height={25} alt="star" />
+              <Image src={whiteStar} width={25} height={25} alt="star" />
             </motion.div>
 
             <motion.p
@@ -88,7 +88,7 @@ const Section9 = () => {
             custom={1.2}
             className="absolute right-[5%] top-[15%]"
           >
-            <Image src={purplestar} width={30} height={30} alt="star" />
+            <Image src={purpleStar} width={30} height={30} alt="star" />
           </motion.div>
 
           <motion.div
@@ -130,7 +130,7 @@ const Section9 = () => {
                   <path
                     d="M5 8L7 10.5L13.5 6"
                     stroke="white"
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                 </svg>
 
@@ -152,7 +152,7 @@ const Section9 = () => {
                   <path
                     d="M5 8L7 10.5L13.5 6"
                     stroke="white"
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                 </svg>
 
@@ -164,7 +164,7 @@ const Section9 = () => {
 
               {/* btn */}
               <div className=" flex justify-center mt-10">
-                <BtnDesign text="Read More" />
+                <BtnDesign text="Read More" register={false} />
               </div>
             </div>
           </motion.div>
@@ -180,7 +180,7 @@ const Section9 = () => {
             custom={2}
             className="absolute left-[20%] bottom-20"
           >
-            <Image src={purplestar} width={20} height={20} alt="star" />
+            <Image src={purpleStar} width={20} height={20} alt="star" />
           </motion.div>
 
           <motion.div
@@ -190,7 +190,7 @@ const Section9 = () => {
             custom={2}
             className="absolute top-[25%] right-[30%]"
           >
-            <Image src={whitestar} width={20} height={20} alt="star" />
+            <Image src={whiteStar} width={20} height={20} alt="star" />
           </motion.div>
 
           <motion.div
@@ -200,7 +200,7 @@ const Section9 = () => {
             custom={2}
             className="absolute left-[10%] bottom-0"
           >
-            <Image src={whitestar} width={20} height={20} alt="star" />
+            <Image src={whiteStar} width={20} height={20} alt="star" />
           </motion.div>
 
           <motion.div
@@ -210,7 +210,7 @@ const Section9 = () => {
             custom={2}
             className="absolute right-[10%] opacity-50 -bottom-[10%]"
           >
-            <Image src={whitestar} width={20} height={20} alt="star" />
+            <Image src={whiteStar} width={20} height={20} alt="star" />
           </motion.div>
 
           <motion.div

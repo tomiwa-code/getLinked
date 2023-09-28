@@ -1,5 +1,5 @@
 "use client";
-import purplestar from "public/purplestart.png";
+import purpleStar from "public/purpleStar.png";
 import manWoman from "public/manWoman.png";
 import whiteStar from "public/whiteStar.png";
 import BtnDesign from "../general/BtnDesign";
@@ -27,7 +27,7 @@ const Section4 = () => {
                 priority
                 width={25}
                 height={25}
-                src={purplestar}
+                src={purpleStar}
                 alt="star"
               />
             </motion.div>
@@ -180,7 +180,7 @@ const Section4 = () => {
             </motion.div>
 
             <motion.div variants={fadeIn("up")} custom={2} className=" mt-10">
-              <BtnDesign text="Read More" />
+              <BtnDesign text="Read More" register={false} />
             </motion.div>
             <div className="absolute -bottom-5 right-40">{PurpleFlare}</div>
           </motion.div>

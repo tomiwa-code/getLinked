@@ -42,7 +42,7 @@ export const Hbg = (props: { size: string }) => (
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#8F01FE" />
-        <stop offset="1" stop-color="#FF2674" />
+        <stop offset="1" stopColor="#FF2674" />
       </linearGradient>
     </defs>
   </svg>
@@ -71,7 +71,7 @@ export const Padlock = (
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#903AFF" />
-        <stop offset="1" stop-color="#FF26B9" />
+        <stop offset="1" stopColor="#FF26B9" />
       </linearGradient>
     </defs>
   </svg>

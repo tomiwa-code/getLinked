@@ -1,6 +1,6 @@
 import BtnDesign from "../general/BtnDesign";
 import { PurpleFlareL } from "../general/Flares";
-import purplestar from "public/purplestart.png";
+import purpleStar from "public/purpleStar.png";
 import whiteStar from "public/whiteStar.png";
 import { motion } from "framer-motion";
 import { blink, slideIn } from "@/utils/variants";
@@ -56,7 +56,7 @@ const Form = () => {
         custom={1.5}
         className="absolute bottom-[20%] left-[1%]"
       >
-        <Image width={25} height={25} src={purplestar} alt="star" />
+        <Image width={25} height={25} src={purpleStar} alt="star" />
       </motion.div>
 
       <div className="absolute bottom-[40%] right-10">{PurpleFlareL}</div>

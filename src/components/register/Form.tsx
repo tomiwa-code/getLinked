@@ -136,7 +136,7 @@ const Form = () => {
             {/* First Row  */}
             <div className="flex gap-x-8 w-full">
               <div className="space-y-2 text-white w-1/2">
-                <label htmlFor="teamName">Team's Name</label>
+                <label htmlFor="teamName">Team&apos;s Name</label>
                 <input
                   className="border rounded border-white bg-glass px-6 py-4 text-sm  w-full focus:outline-none"
                   type="text"

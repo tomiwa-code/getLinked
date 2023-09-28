@@ -64,15 +64,15 @@ const Section3 = () => {
             <p className="text-[14px] font-normal text-white leading-loose">
               Our tech hackathon is a melting pot of visionaries, and its
               purpose is as <br />
-              clear as day: to shape the future. Whether you're a coding genius,
+              clear as day: to shape the future. Whether you&apos;re a coding genius,
               a <br />
-              design maverick, or a concept wizard, you'll have the chance to
+              design maverick, or a concept wizard, you&apos;ll have the chance to
               transform <br />
               your ideas into reality. Solving real-world problems, pushing the
               boundaries <br />
               of technology, and creating solutions that can change the world,{" "}
               <br />
-              that's what we're all about!
+              that&apos;s what we&apos;re all about!
             </p>
           </motion.div>
           <motion.div
